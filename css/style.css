@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(255, 255, 255, 0.7);
 }
 .get-started .btn {
-  height: 54px;
+  height: 50px;
   border: none !important;
   background: #118DF0;
   color: #fff;
@@ -339,11 +339,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #get-started {
-  padding: 7em 0;
+  padding: 1em 0;
   background: #00E0FF;
 }
 #get-started .fh5co-heading h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 #get-started .fh5co-heading p {
   color: #008699;
@@ -616,6 +616,18 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.logo_div{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	background-color: #4CD964;
+	top:0;
+	left: 0;
+}
+.logo{
+	margin-left: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
