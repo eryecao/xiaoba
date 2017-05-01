@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>校霸</title>
@@ -23,20 +23,22 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
 	<!-- Owl Carousel  -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-	</head>
-	<body>
+	<script src="js/respond.min.js"></script>
+	
+	<link rel="stylesheet" href="css/mui.min.css">
+	
+</head>
+
+<body>
 	<!--<div class="logo_div">
 		<div><img class="logo" width="50px" height="50" src="images/logo2.png" /><span style="color: #000000;">二叶草</span></div>
 	</div>-->
@@ -44,12 +46,12 @@
 		<div class="container">
 			<div class="col-md-6 col-sm-6">
 				<div class="intro">
-					<h1 id="fh5co-logo"><a href="index.html">校霸</a></h1>
+					<h1 id="fh5co-logo">校霸<h5 style="color: white;">大学生专属App</h5></h1>
 					<p>
 						<a href="#" class="btn btn-primary" onclick="AndroidDownload()"><i class="icon-apple"></i> AppStore下载</a>
 						<a href="#" class="btn btn-primary" onclick="IOSDownload()"><i class="icon-android"></i> Android&nbsp; 下载</a>
 					</p>
-					<h4 style="color: white;">一款为大学生提供线上交易平台+线下交易服务的App,专注于校园二手交易服务,同时还有约撸游戏、个人自拍秀、个人动态、糗事。</h4>
+					<h4 style="color: white;">校园二手、撸游戏、个人自拍秀、校园动态、校园糗事。</h4>
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-6">
@@ -97,7 +99,7 @@
 				<div class="col-md-6">
 					<div class="fh5co-img">
 						<figure class="fh5co-figure animate-box">
-							<img class="img-2" src="images/Screenshot04.jpg" alt="Free Website Template by FreeHTML5.co">	
+							<img class="img-2" src="images/Screenshot02.jpg" alt="Free Website Template by FreeHTML5.co">	
 						</figure>
 					</div>
 				</div>
@@ -238,7 +240,7 @@
 		</div>
 	
 		<div id="get-started">
-			<footer style="height: 350px;" id="footer">
+			<footer style="height: 350px; color: #000000;" id="footer">
 				<div class="container">
 					<div class="col-md-6 col-sm-6">		
 							<span>客服热线：15577860950</span><br>
@@ -246,7 +248,7 @@
 							<span>地址：广西宜州河池学院东区新九栋一楼</span>
 					</div>		
 					<div class="col-md-6 col-sm-6">
-						<span >联系我们：</span>
+						<span >联系客服</span>
 						<span style="margin-left: 5%;"><img width="20%" height="10%" src="images/weixin_zxx.jpg" /></span>
 						<span style="margin-left: 5%;"><img width="20%" height="10%" src="images/qq_zxx.jpg" /></span> 
 					</div>
@@ -260,28 +262,36 @@
 		</div>
 	</div>
 	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	<script type="text/jscript">
-		function AndroidDownload(){
-			alert("未开放下载");
-		}
-		function IOSDownload(){
-			alert("上线中，敬请期待！");
-		}
-	</script>
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- MAIN JS -->
+<script src="js/main.js"></script>
+</body>
+<script type="text/javascript" src="js/mui.js"></script>
+<script type="text/javascript" type="text/jscript">
+	function AndroidDownload(){
+		//alert("未开放下载");
+		mui.alert('未开放下载，敬请期待！', '校霸Android版', function() {
+			mui.toast('敬请期待');
+		});
+	}
+	function IOSDownload(){
+		//alert("上线中，敬请期待！");
+		mui.alert('上线中，敬请期待！', '校霸ios版', function() {
+			mui.toast('敬请期待');
+		});
+	}
 	
-	</body>
+	
+</script>
+
 </html>
 
