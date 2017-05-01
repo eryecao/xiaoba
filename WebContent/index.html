@@ -46,18 +46,19 @@
 		<div class="container">
 			<div class="col-md-6 col-sm-6">
 				<div class="intro">
-					<h1 id="fh5co-logo">校霸<span style="font-size: 1.2rem; color: white;"> 大学生专属App</span></h1>
-					<p>
+					<h1 id="fh5co-logo">校霸</h1>
+					<h4 style="color: white;">大学生专属App，校园二手、找撸友、自拍秀、校园动态、校园糗事。</h4>
+					<p style="margin-top: 2rem;">
 						<a href="#" class="btn btn-primary" onclick="AndroidDownload()"><i class="icon-apple"></i> AppStore下载</a>
 						<a href="#" class="btn btn-primary" onclick="IOSDownload()"><i class="icon-android"></i> Android&nbsp; 下载</a>
 					</p>
-					<h4 style="color: white;">校园二手、撸游戏、个人自拍秀、校园动态、校园糗事。</h4>
+					
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-6">
 				<figure class="fh5co-intro-img">
 					<img class="img-1 animate-box" src="images/Screenshot01.jpg" alt="Free Website Template by FreeHTML5.co">
-					<img class="img-2 animate-box hidden-xs" src="images/Screenshot02.jpg" alt="Free Website Template by FreeHTML5.co">
+					<!--<img class="img-2 animate-box hidden-xs" src="images/Screenshot02.jpg" alt="Free Website Template by FreeHTML5.co">-->
 				</figure>
 			</div>
 		</div>
@@ -278,16 +279,16 @@
 <script type="text/javascript" src="js/mui.js"></script>
 <script type="text/javascript" type="text/jscript">
 	function AndroidDownload(){
-		//alert("未开放下载");
-		mui.alert('未开放下载，敬请期待！', '校霸Android版', function() {
-			mui.toast('敬请期待');
-		});
+		mui.toast('未开放下载，敬请期待！');
+		//mui.alert('未开放下载，敬请期待！', '校霸Android版', function() {
+		//	mui.toast('敬请期待');
+		//});
 	}
 	function IOSDownload(){
-		//alert("上线中，敬请期待！");
-		mui.alert('上线中，敬请期待！', '校霸ios版', function() {
-			mui.toast('敬请期待');
-		});
+		mui.toast('上线中，敬请期待！');
+		//mui.alert('上线中，敬请期待！', '校霸ios版', function() {
+		//	mui.toast('敬请期待');
+		//});
 	}
 	
 	
