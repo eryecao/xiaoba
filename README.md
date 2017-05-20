@@ -10,3 +10,7 @@
 官网地址3：
     https://eryecao.github.io/xiaoba/WebContent/index.html
     
+    
+Android版本下载地址：
+	https://eryecao.github.io/xiaoba/WebContent/xiaoba_android_download.html
+	
