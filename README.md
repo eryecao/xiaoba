@@ -1,6 +1,8 @@
 # xiaoba
 校霸官方APP网站
 
+
+
 官网地址1：
     https://119.23.78.65/xiaoba/index.html
     
@@ -14,3 +16,6 @@
 Android版本下载地址：
 	https://eryecao.github.io/xiaoba/WebContent/xiaoba_android_download.html
 	
+	
+云修复地址：
+	https://eryecao.github.io/xiaoba/WebContent/autoUpdate/v1.0.0/widget_v0.1.3_1.zip
