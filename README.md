@@ -5,7 +5,7 @@
     https://eryecao.github.io/xiaoba/WebContent/xiaoba_office.html
 
 官网地址2：
-    https://www.校霸.top/xiaoba/index.html
+    https://xiaoba.tech/
     
     
 Android版本下载地址：
