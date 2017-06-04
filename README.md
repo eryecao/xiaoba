@@ -13,3 +13,4 @@ Android版本下载地址：
 	
 云修复地址：
 	https://eryecao.github.io/xiaoba/WebContent/autoUpdate/v1.0.0/widget_v1.1.0_1.zip
+	https://xiaoba.tech/autoUpdate/v1.0.0/widget_v1.1.6_2.zip
